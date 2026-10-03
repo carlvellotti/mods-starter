@@ -1,0 +1,6 @@
+{
+  "name": "guard",
+  "version": "0.1.0",
+  "description": "Pauses risky shell commands (rm -rf, force push, DROP TABLE) and asks you Proceed or Cancel first",
+  "author": { "name": "Carl Vellotti" }
+}

@@ -1,0 +1,4 @@
+{
+  "description": "The panel-with-buttons hooks module",
+  "modules": ["./register.tsx"]
+}

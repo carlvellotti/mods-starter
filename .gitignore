@@ -1,0 +1,5 @@
+# Claude Code writes these into each mod every time it loads one with --plugin-dir.
+# They match your installed version, so regenerate them rather than commit them.
+mods/*/.claude-plugin/types/
+mods/*/tsconfig.json
+node_modules/

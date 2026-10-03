@@ -1,0 +1,32 @@
+{
+  "name": "mods-starter",
+  "description": "Five small, commented Claude Code mods to copy and change: a status band, a pane with buttons, a command guard, a /plain-recap command, and a polling dashboard",
+  "owner": { "name": "Carl Vellotti" },
+  "plugins": [
+    {
+      "name": "status-band",
+      "source": "./mods/status-band",
+      "description": "A line above the prompt that says, in plain English, what Claude is doing right now and for how long"
+    },
+    {
+      "name": "panel-with-buttons",
+      "source": "./mods/panel-with-buttons",
+      "description": "A /edits command that opens a pane listing the files Claude changed this session, with Clear and Close buttons"
+    },
+    {
+      "name": "guard",
+      "source": "./mods/guard",
+      "description": "Pauses risky shell commands (rm -rf, force push, DROP TABLE) and asks you Proceed or Cancel first"
+    },
+    {
+      "name": "slash-command",
+      "source": "./mods/slash-command",
+      "description": "A /plain-recap command that summarizes the session so far in plain English for a non-engineer"
+    },
+    {
+      "name": "dashboard",
+      "source": "./mods/dashboard",
+      "description": "A /dashboard pane that fetches a JSON URL every minute and shows a few numbers from it"
+    }
+  ]
+}

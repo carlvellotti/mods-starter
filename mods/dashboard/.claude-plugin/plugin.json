@@ -1,0 +1,20 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "description": "A /dashboard pane that fetches a JSON URL every minute and shows a few numbers from it",
+  "author": { "name": "Carl Vellotti" },
+  "userConfig": {
+    "url": {
+      "type": "string",
+      "title": "URL to watch",
+      "description": "A web address that returns JSON. The default is the public GitHub page for the Claude Code repository.",
+      "default": "https://api.github.com/repos/anthropics/claude-code"
+    },
+    "fields": {
+      "type": "string",
+      "title": "Numbers to show",
+      "description": "Comma-separated field names from that JSON. Use dots for nested fields, like owner.id.",
+      "default": "stargazers_count,forks_count,open_issues_count,subscribers_count"
+    }
+  }
+}

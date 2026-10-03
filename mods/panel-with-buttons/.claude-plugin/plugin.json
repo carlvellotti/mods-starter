@@ -1,0 +1,6 @@
+{
+  "name": "panel-with-buttons",
+  "version": "0.1.0",
+  "description": "A /edits command that opens a pane listing the files Claude changed this session, with Clear and Close buttons",
+  "author": { "name": "Carl Vellotti" }
+}

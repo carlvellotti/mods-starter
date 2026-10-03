@@ -1,0 +1,6 @@
+{
+  "name": "slash-command",
+  "version": "0.1.0",
+  "description": "A /plain-recap command that summarizes the session so far in plain English for a non-engineer",
+  "author": { "name": "Carl Vellotti" }
+}

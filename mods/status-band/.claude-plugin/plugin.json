@@ -1,0 +1,6 @@
+{
+  "name": "status-band",
+  "version": "0.1.0",
+  "description": "A line above the prompt that says, in plain English, what Claude is doing right now and for how long",
+  "author": { "name": "Carl Vellotti" }
+}
